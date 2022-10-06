@@ -5,7 +5,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .footer {
+    font-family: 'GmarketSansMedium';
     border-bottom: 1px solid #bbb;
     height: 250px;
     background-color: #0d0d26;
@@ -51,6 +59,7 @@
 .footer_inner .bottom p {
     font-size: 10px;
     color: #f4f4f4;
+    line-height: 14px;
 }
 
 .footer_inner .top a:hover {
