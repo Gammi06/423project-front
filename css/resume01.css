@@ -128,11 +128,12 @@
 	font-weight: bolder;
 	font-size: 18px;
 }
+
 #sec1 div .sec1_cont4{
 	margin-bottom: 50px;
 }
 
-#sec1 div .sec1_cont4 span{
+#sec1 div .sec1_cont4 .btn{
 	color: rgb(241, 241, 241);
 	font-weight: bolder;
 	font-size: 18px;
@@ -145,15 +146,24 @@
 	text-align: center;
 }
 
-#sec1 div .sec1_cont4 span:first-child{
+#sec1 div .sec1_cont4 .btn_adminresume{
+	background-color: white;
+	color: #0000ee;
+}
+#sec1 div .sec1_cont4 .btn_adminresume:hover{
+	background-color: #0000ee;
+	color: white;
+}
+
+#sec1 div .sec1_cont4 .btn_newresume{
+	background-color: #0000ee;
+	color: white;
+}
+#sec1 div .sec1_cont4 .btn_newresume:hover{
 	background-color: white;
 	color: #0000ee;
 }
 
-#sec1 div .sec1_cont4 span:last-child{
-	margin-right: 0;
-	background-color: #0000ee;
-}
 
 
 /*------#sec1끝------*/
@@ -231,12 +241,12 @@
 	padding-bottom: 70px;
 }
 
-#sec4 .btn{
+#sec4 .sec4_btn{
 	display: -webkit-flex;
 	display: flex;
 	justify-content: center;
 }
-#sec4 .btn div{
+#sec4 .sec4_btn div{
 	margin-right: 20px;
 }
 /*
@@ -263,12 +273,17 @@
 	width: 160px;
 	text-align: center;
 	margin-right: 0;
+	color: white;
+}
+
+#sec4 .btn_newresume:hover{
+	background-color: white;
+	color: #0000ee;
 }
 #sec4 .btn_newresume span{
 	line-height: 50px;
 	font-weight: bolder;
 	font-size: 17px;
-	color: white;
 }
 /*------#sec4끝------*/
 
