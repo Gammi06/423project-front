@@ -1,0 +1,169 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+
+}
+
+.companyedit_title {
+    /*기업정보 설정*/
+    justify-content: left;
+    align-items: flex-start;
+    font-size: 20px;
+    font-weight: bold;
+    width: 950px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.basic_information_option {
+    /*기업정보/서비스*/
+    justify-content: left;
+    align-items: flex-start;
+    font-size: 16px;
+    width: 950px;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+
+}
+
+
+.basic_information_option .basic_information {
+    /*기업설정 수정*/
+    width: 150px;
+    height: 24px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.basic_information_option .service_release {
+    /*기업 서비스 해제*/
+    width: 150px;
+    height: 24px;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+/*상황보고 수정할것*/
+.basic_information_option a:hover {
+    font-size: 14px;
+    box-shadow: inset 0 -10px 1px #33ffcc;
+}
+
+/*기업정보 수정*/
+.basic_information_text_box {
+    /*기업정보 수정박스*/
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin: -35px 280px 100px auto;
+    width: 698px;
+    height: 528px;
+    box-sizing: content-box;
+}
+
+.basic_information_text_box .basic_information_box_title {
+    text-align: left;
+    font-size: 18px;
+    width: 300px;
+    height: 27px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.basic_information_text_box .application_information {
+    text-align: left;
+    font-size: 16px;
+    color: #bbb;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+/*지원결과홈*/
+
+
+/*회사명/대표지주소/대표메일*/
+.basic_information_text_box .company_name_box {
+    display: flex;
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 630px;
+    height: 40px;
+}
+
+.company_name_box .company_name_tag {
+    width: 132px;
+    height: 30px;
+    font-size: 16px;
+    color: #bbb;
+}
+
+.company_name_box .company_name_form {
+    width: 500px;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+
+    border: 2px solid #bbb;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.basic_information_text_box .input__box1 {
+    margin-bottom: -20px;
+}
+
+
+.company_name_box .form-select1 {
+    /*지역입력란*/
+    width: 210px;
+    height: 34px;
+    color: #bbb;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding-left: 10px;
+    margin-bottom: -4px;
+}
+
+.company_name_box .form-select2 {
+    /*직원입력란*/
+    width: 210px;
+    height: 34px;
+    color: #aaa;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding-left: 10px;
+    margin-top: -40px;
+
+}
+
+.completion {
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: 15px;
+    background-color: #33ffcc;
+}
+
+.completion a {
+    color: #191819;
+}
+
+.completion a:hover {
+    font-size: 14px;
+    color: #191819;
+}
