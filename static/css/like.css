@@ -1,0 +1,76 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: auto;
+}
+
+.liketitle{
+	justify-content: left;
+	align-items: flex-start;
+	font-size: 20px;
+	font-weight: bold;
+	width: 950px;
+	margin-top: 40px;
+}
+
+.full_setting{
+	justify-content: left;
+	align-items: flex-start;
+	width: 253px;
+	height: 350px;
+	margin-left: 19px;
+}
+
+.photocompany .companyphoto{
+	width: 230px;
+}
+
+.photocompany .companyphoto{
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+
+.company_story{
+	width: 230px;
+}
+
+.company_story .contect_title{
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.explanation .explanation_text{
+	color: #bbb;
+	font-size: 13px;
+	width:228px;
+	height: 18px;
+}
+
+
+.full_setting .company_image {
+	margin-top: 10px
+}
+
+.full_setting .company_image .conpany_min_iphoto{
+	border-radius: 50px;
+	padding-right: 5px;
+	margin-bottom: 10px;
+	;
+}
+
+.full_setting .company_story .like_proceeding{	
+	text-align: center;
+	margin-left: auto;
+	color: #0000ee;
+	width: 60px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	border-radius: 5px;
+	border: 1px solid #bbb;
+
+}
