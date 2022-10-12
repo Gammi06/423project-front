@@ -97,46 +97,42 @@ body::-webkit-scrollbar {
 
 
 /*------.resume_sec시작------*/
-.resume_sec{
+.resume03_sec{
 	width: 1000px;
 	margin: 0 auto;
 	background-color: white;
 }
 
-.resume_sec .sec_box{
+.resume03_sec .sec_box{
 	padding-top: 50px;
 	padding-bottom: 500px;
 	padding-left: 35px;
 	background-color: #f2f2f2;
 }
 
-.resume_sec .sec_box div{
-
-}
-
-.resume_sec .sec_box .box_title{
+.resume03_sec .sec_box .box_title{
 	width: 1000px;
 	height: 20px;
 	margin-bottom: 20px;
 }
 
-.resume_sec .sec_box .box_title span{
+.resume03_sec .sec_box .box_title span{
 	font-size: 20px;
 	line-height: 20px;
 	color: rgb(50, 50, 50);
 }
 
-.resume_sec .box_cont{
+.resume03_sec .box_cont{
 	background-color: #e2f1ff;
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
-.resume_sec .sec_box .box_cont ul li{
+.resume03_sec .sec_box .box_cont ul li{
 	float: left;
 }
 
-.resume_sec .sec_box .box_cont .cont_resumenew{
+.resume03_sec .sec_box .box_cont .cont_resumenew{
 	padding-top: 20px;
 	text-align: center;
 	width: 220px;
@@ -147,19 +143,20 @@ body::-webkit-scrollbar {
 	margin-right: 14px;
 }
 
-.resume_sec .sec_box .box_cont .cont_resumenew .resumenew_img{
+.resume03_sec .sec_box .box_cont .cont_resumenew .resumenew_img{
 	padding-bottom: 5px;
 }
 
-.resume_sec .sec_box .box_cont .cont_resumenew .resumenew_img img{
+.resume03_sec .sec_box .box_cont .cont_resumenew .resumenew_img img{
 	width: 70px;
 }
 
-.resume_sec .sec_box .box_cont .cont_resumenew .resumenew_text a{
+.resume03_sec .sec_box .box_cont .cont_resumenew .resumenew_text a{
 	color: rgb(50, 50, 50);
+    font-size: 18px;
 }
 
-.resume_sec .sec_box .box_cont .cont_resumelist{
+.resume03_sec .sec_box .box_cont .cont_resumelist{
 	width: 220px;
 	height: 140px;
 	border: 1px solid #bbb;
@@ -168,33 +165,35 @@ body::-webkit-scrollbar {
 	margin-right: 14px;
 }
 
-.resume_sec .sec_box .box_cont .cont_resumelist:last-child{
+.resume03_sec .sec_box .box_cont .cont_resumelist:last-child{
 	margin-right: 0;
 }
 
-.resume_sec .sec_box .box_cont .cont_resumelist{
+.resume03_sec .sec_box .box_cont .cont_resumelist{
 	color: #bbb;
 }
 
-.resume_sec .sec_box .box_cont .cont_resumelist .resumelist_name, .resumelist_date{
-	padding-left: 10px;
+.resume03_sec .sec_box .box_cont .cont_resumelist .resumelist_name,
+.resume03_sec .sec_box .box_cont .cont_resumelist .resumelist_date{
+	padding-left: 20px;
+    font-size: 18px;
 }
 
-.resume_sec .sec_box .box_cont .cont_resumelist .resumelist_name{
-	padding-top: 10px;
+.resume03_sec .sec_box .box_cont .cont_resumelist .resumelist_name{
+	padding-top: 15px;
 }
 
-.resume_sec .sec_box .box_cont .cont_resumelist .resumelist_date{
-	padding-bottom: 60px;
+.resume03_sec .sec_box .box_cont .cont_resumelist .resumelist_date{
+	padding-bottom: 35px;
 }
 
-.resume_sec .sec_box .box_cont .cont_resumelist .resumelist_img{
+.resume03_sec .sec_box .box_cont .cont_resumelist .resumelist_img{
 	border-top: 1px solid #bbb;
 	text-align: right;
 	padding-top: 5px;
 }
 
-.resume_sec .sec_box .box_cont .cont_resumelist .resumelist_img img{
+.resume03_sec .sec_box .box_cont .cont_resumelist .resumelist_img img{
 	width: 25px;
 	margin-right: 10px;
 }
