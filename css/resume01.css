@@ -86,186 +86,178 @@
 
 
 
-/*------#sec1시작------*/
-#sec1{
-	height: 500px;
-	background-color: #0d0d12;
+/*------.resume01_sec1시작------*/
+.resume01_sec1{
+	width: 1000px;
+	height: 440px;
+	background-color: #5e5e5e;
+	margin: 0 auto;
 }
 
-#sec1 div p{
+.resume01_sec1 div p{
 	display: -webkit-flex;
 	display: flex;
 	justify-content: center;
 }
 
-#sec1 div .sec1_cont1{
+.resume01_sec1 div .sec1_cont1{
 	padding-top: 100px;
 	margin-bottom: 30px;
 }
 
-#sec1 div .sec1_cont1 span{
-	color: rgb(241, 241, 241);
-	font-weight: bolder;
-	font-size: 52px;
+.resume01_sec1 div .sec1_cont1 span{
+	color: #fff;
+	font-weight: bold;
+	font-size: 56px;
 }
 
-#sec1 div .sec1_cont2{
+.resume01_sec1 div .sec1_cont2{
 	margin-bottom: 8px;
 }
 
-#sec1 div .sec1_cont2 span{
-	color: rgb(241, 241, 241);
+.resume01_sec1 div .sec1_cont2 span{
+	color: #fff;
 	font-weight: bolder;
 	font-size: 18px;
 }
 
-#sec1 div .sec1_cont3{
+.resume01_sec1 div .sec1_cont3{
 	margin-bottom: 50px;
 }
 
-#sec1 div .sec1_cont3 span{
-	color: rgb(241, 241, 241);
+.resume01_sec1 div .sec1_cont3 span{
+	color: #fff;
 	font-weight: bolder;
 	font-size: 18px;
 }
 
-#sec1 div .sec1_cont4{
+.resume01_sec1 div .sec1_cont4{
 	margin-bottom: 50px;
 }
 
-#sec1 div .sec1_cont4 .btn{
-	color: rgb(241, 241, 241);
-	font-weight: bolder;
+.resume01_sec1 div .sec1_cont4 .btn{
+	font-weight: bold;
 	font-size: 18px;
 	border: 1px solid #0000ee;
 	border-radius: 30px;
-	width: 150px;
-	height: 40px;
+	width: 160px;
+	height: 45px;
 	margin-right: 20px;
-	line-height: 40px;
+	line-height: 45px;
 	text-align: center;
 }
 
-#sec1 div .sec1_cont4 .btn_adminresume{
-	background-color: white;
+.resume01_sec1 div .sec1_cont4 .btn_adminresume{
+	background-color: #e6e6e6;
 	color: #0000ee;
 }
-#sec1 div .sec1_cont4 .btn_adminresume:hover{
+.resume01_sec1 div .sec1_cont4 .btn_adminresume:hover{
 	background-color: #0000ee;
 	color: white;
 }
 
-#sec1 div .sec1_cont4 .btn_newresume{
+.resume01_sec1 div .sec1_cont4 .btn_newresume{
 	background-color: #0000ee;
 	color: white;
 }
-#sec1 div .sec1_cont4 .btn_newresume:hover{
-	background-color: white;
+
+.resume01_sec1 div .sec1_cont4 .btn_newresume:hover{
+	background-color: #e6e6e6;
 	color: #0000ee;
 }
+/*------.resume01_sec1끝------*/
 
 
-
-/*------#sec1끝------*/
-
-
-
-
-/*------#sec2시작------*/
-#sec2{
+/*------.resume01_sec2시작------*/
+.resume01_sec2{
 	height: 1300px;
 	background-color: white;
+	margin-top: 50px;
 }
 
-#sec2 div {
+.resume01_sec2 div {
 	display: -webkit-flex;
 	display: flex;
 	justify-content: center;
 }
 
-#sec2 div span {
-	font-weight: bolder;
-	font-size: 30px;
+.resume01_sec2 div span {
+	font-weight: bold;
+	font-size: 32px;
 	height: 150px;
 	line-height: 150px;
 }
 
-#sec2 div p {
-	width: 500px;
-	height: 500px;
+.resume01_sec2 .sec2_box p {
+	width: 490px;
+	height: 485px;
 	background-color: #f2f2f2;
-	margin: 10px;
 }
 
+.resume01_sec2 .sec2_box .box_tl{
+	margin: 0 10px 10px 0;
+}
 
-/*------#sec2끝------*/
+.resume01_sec2 .sec2_box .box_bl{
+	margin: 0 10px 0 0;
+}
+
+.resume01_sec2 .sec2_box .box_tr{
+	margin: 0 0 10px 0;
+}
+/*------.resume01_sec2끝------*/
 
 
-
-
-/*------#sec3시작------*/
-#sec3{
+/*------.resume01_sec3시작------*/
+.resume01_sec3{
+	width: 1000px;
 	height: 620px;
 	background-color: #f4f4f4;
+	padding-top: 50px;
 	padding-bottom: 60px;
+	margin: 0 auto;
 }
 
-#sec3 div{
+.resume01_sec3 div{
 	display: -webkit-flex;
 	display: flex;
 	justify-content: center;
 }
 
-#sec3 div span{
+.resume01_sec3 div span{
 	height: 120px;
-	font-weight: bolder;
-	font-size: 30px;
+	font-weight: bold;
+	font-size: 32px;
 	line-height: 120px;
 }
 
-#sec3 div p{
-	width: 1000px;
+.resume01_sec3 div p{
+	width: 800px;
 	height: 500px;
 	background-color: white;
 }
-/*------#sec3끝------*/
+/*------.resume01_sec3끝------*/
 
 
-
-
-
-
-/*------#sec4시작------*/
-#sec4{
+/*------.resume01_sec4시작------*/
+.resume01_sec4{
+	width: 1000px;
 	background-color: #f4f4f4;
 	padding-bottom: 70px;
+	margin: 0 auto;
 }
 
-#sec4 .sec4_btn{
+.resume01_sec4 .sec4_btn{
 	display: -webkit-flex;
 	display: flex;
 	justify-content: center;
 }
-#sec4 .sec4_btn div{
+
+.resume01_sec4 .sec4_btn div{
 	margin-right: 20px;
 }
-/*
-#sec4 .btn_sampledown{
-	background-color: white;
-	border: 1px solid #bbb;
-	border-radius: 30px;
-	height: 50px;
-	width: 160px;
-	text-align: center;
-}
-#sec4 .btn_sampledown span{
-	line-height: 50px;
-	font-weight: bolder;
-	font-size: 17px;
-	color:#0d0d12;
-}
-*/
-#sec4 .btn_newresume{
+
+.resume01_sec4 .btn_newresume{
 	background-color: #0000ee;
 	border: 1px solid #0000ee;
 	border-radius: 30px;
@@ -276,18 +268,17 @@
 	color: white;
 }
 
-#sec4 .btn_newresume:hover{
+.resume01_sec4 .btn_newresume:hover{
 	background-color: white;
 	color: #0000ee;
 }
-#sec4 .btn_newresume span{
+
+.resume01_sec4 .btn_newresume span{
 	line-height: 50px;
-	font-weight: bolder;
-	font-size: 17px;
+	font-weight: bold;
+	font-size: 18px;
 }
-/*------#sec4끝------*/
-
-
+/*------.resume01_sec4끝------*/
 
 
 
