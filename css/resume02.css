@@ -96,8 +96,8 @@ body::-webkit-scrollbar {
 
 
 
-/*------.resume_sec1시작------*/
-.resume_sec1{
+/*------.resume02_sec1시작------*/
+.resume02_sec1{
 	width: 1000px;
 	margin: 0 auto;
 	background-color: white;
@@ -106,109 +106,110 @@ body::-webkit-scrollbar {
 	justify-content: flex-start;
 }
 
-.resume_sec1 .sec1_box{
+.resume02_sec1 .sec1_box{
 	padding-top: 100px;
 	padding-bottom: 100px;
 	margin-left: 50px;
 }
 
-.resume_sec1 .sec1_cont1{
+.resume02_sec1 .sec1_cont1{
 	margin-bottom: 30px;
 }
 
-.resume_sec1 .sec1_cont1 span{
+.resume02_sec1 .sec1_cont1 span{
 	font-weight: bolder;
-	font-size: 30px;
+	font-size: 36px;
 	color:rgb(50, 50, 50);
 }
 
-.resume_sec1 .sec1_cont2,.sec1_cont3{
+.resume02_sec1 .sec1_cont2,.sec1_cont3{
 	float: left;
 }
 
-.resume_sec1 .sec1_cont2{
-	width: 180px;
-	height: 180px;
+.resume02_sec1 .sec1_cont2{
+	width: 153px;
+	height: 153px;
 	background-color: #bbb;
-	border-radius: 90px;
+	border-radius: 80px;
 	margin-right: 50px;
 	overflow: hidden;
 }
 
-.resume_sec1 .sec1_cont2 img{
-	max-height: 180px;
+.resume02_sec1 .sec1_cont2 img{
+	max-height: 153px;
 	margin-left: -25%;
 }
 
-.resume_sec1 .sec1_cont3{
-	margin-top: 20px;
+.resume02_sec1 .sec1_cont3{
+	margin-top: 5px;
 }
 
-.resume_sec1 .sec1_cont3 ul li div, #sec1 div .sec1_cont3 ul li input{
+.resume02_sec1 .sec1_cont3 ul li div, #sec1 div .sec1_cont3 ul li input{
 	float: left;
 	margin-top: 20px;
 }
 
-.resume_sec1 .sec1_cont3 ul li {
+.resume02_sec1 .sec1_cont3 ul li {
 	display: -webkit-flex;
 	display: flex;
 	flex-wrap: nowrap;
 	color:rgb(50, 50, 50);
 }
 
-.resume_sec1 .sec1_cont3 ul li .cont3_key{
-	font-size: 20px;
+.resume02_sec1 .sec1_cont3 ul li .cont3_key{
+	font-size: 18px;
 	width: 100px;
 }
 
-.resume_sec1 .sec1_cont3 ul li .cont3_data{
+.resume02_sec1 .sec1_cont3 ul li .cont3_data{
 	font-size: 18px;
 	width: 200px;
 }
-/*------.resume_sec1끝------*/
+/*------.resume02_sec1끝------*/
 
 
 
-/*------.resume_sec2시작------*/
-.resume_sec2{
+/*------.resume02_sec2시작------*/
+.resume02_sec2{
 	background-color: white;
 	width: 1000px;
 	margin: 0 auto;
 }
 
-.resume_sec2 .sec2_box{
+.resume02_sec2 .sec2_box{
 	margin-left: 50px;
 }
 
-.resume_sec2 .sec2_title {
+.resume02_sec2 .sec2_title {
 	width: 900px;
 	border-bottom: 1px solid rgb(100, 100, 100);
 }
 
-.resume_sec2 .sec2_title span {
-	font-size: 20px;
-	line-height: 20px;
+.resume02_sec2 .sec2_title span {
+	font-size: 18px;
+	line-height: 18px;
 	color: rgb(50, 50, 50);
 }
 
-.resume_sec2 .sec2_cont1{
+.resume02_sec2 .sec2_cont1{
 	width: 900px;
 	background-color: #e2f1ff;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-.resume_sec2 .sec2_cont1 ul li{
+.resume02_sec2 .sec2_cont1 ul li{
 	color: rgb(100, 100, 100);
+	font-size: 14px;
 }
 
-.resume_sec2 .sec2_cont2{
+.resume02_sec2 .sec2_cont2{
 	padding-bottom: 80px;
 }
 
-.resume_sec2 .sec2_cont2 textarea {
+.resume02_sec2 .sec2_cont2 textarea {
 	width: 878px;
-	height: 200px;
+	height: 170px;
 	font-size: 12px;
 	color: rgb(50, 50, 50);
 	border: 1px solid #bbb;
@@ -217,266 +218,281 @@ body::-webkit-scrollbar {
 	resize: none;
 	padding: 10px;
 }
-/*------.resume_sec2끝------*/
+/*------.resume02_sec2끝------*/
 
 
 
-/*------.resume_sec3시작------*/
-.resume_sec3{
+/*------.resume02_sec3시작------*/
+.resume02_sec3{
 	width: 1000px;
 	margin: 0 auto;
 	background-color: white;
 	padding-bottom: 60px;
 }
 
-.resume_sec3 .sec3_box{
+.resume02_sec3 .sec3_box{
 	margin-left: 50px;
 }
 
-.resume_sec3 .sec3_box div{
+.resume02_sec3 .sec3_box div{
 	display: -webkit-flex;
 	display: flex;
 	justify-content: flex-start;
 }
 
-.resume_sec3 .sec3_title{
+.resume02_sec3 .sec3_title{
 	width: 900px;
 	border-bottom: 1px solid rgb(100, 100, 100);
 }
 
-.resume_sec3 .sec3_title span{
-	font-size: 20px;
-	line-height: 20px;
+.resume02_sec3 .sec3_title span{
+	font-size: 18px;
+	line-height: 18px;
 	color: rgb(50, 50, 50);
 }
 
-.resume_sec3 .sec3_cont{
+.resume02_sec3 .sec3_cont{
 	width: 900px;
 	background-color: #e2f1ff;
-	color: rgb(100, 100, 100);
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
-.resume_sec3 .sec3_add{
+.resume02_sec3 .sec3_cont ul li{
+	color: rgb(100, 100, 100);
+	font-size: 14px;
+}
+
+.resume02_sec3 .sec3_add{
 	width: 900px;
-	height: 22px;
-	line-height: 22px;
+	height: 25px;
+	line-height: 25px;
 	padding-bottom: 20px;
 	border-bottom: 1px solid #bbb;
 	margin-bottom: 20px;
 }
 
-.resume_sec3 .sec3_add img{
+.resume02_sec3 .sec3_add img{
 	margin-right: 10px;
 }
 
-.resume_sec3 .sec3_add span{
+.resume02_sec3 .sec3_add span{
 	color:#0000ee;
+	font-size: 16px;
+	line-height: 25px;
 }
 
-.resume_sec3 .sec3_work{
+.resume02_sec3 .sec3_work{
 	width: 900px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-.resume_sec3 .work_term{
+.resume02_sec3 .work_term{
 	width: 220px;
 	color: rgb(100, 100, 100);
+	font-size: 16px;
+	margin-right: 50px;
 }
 
-.resume_sec3 .work_company{
+.resume02_sec3 .work_company{
 	width: 580px;
 	color: rgb(50, 50, 50);
+	font-size: 20px;
 }
-/*------.resume_sec3끝------*/
+/*------.resume02_sec3끝------*/
 
 
 
-/*------.resume_sec4시작------*/
-.resume_sec4{
+/*------.resume02_sec4시작------*/
+.resume02_sec4{
 	width: 1000px;
 	margin: 0 auto;
 	background-color: white;
 	padding-bottom: 60px;
 }
 
-.resume_sec4 .sec4_box{
+.resume02_sec4 .sec4_box{
 	margin-left: 50px;
 }
 
-.resume_sec4 .sec4_box div{
+.resume02_sec4 .sec4_box div{
 	display: -webkit-flex;
 	display: flex;
 	justify-content: flex-start;
 }
 
-.resume_sec4 .sec4_title{
+.resume02_sec4 .sec4_title{
 	width: 900px;
 	border-bottom: 1px solid rgb(100, 100, 100);
 }
 
-.resume_sec4 .sec4_title span{
-	font-size: 20px;
-	line-height: 20px;
+.resume02_sec4 .sec4_title span{
+	font-size: 18px;
+	line-height: 18px;
 	color: rgb(50, 50, 50);
 }
 
-.resume_sec4 .sec4_cont{
+.resume02_sec4 .sec4_cont{
 	width: 900px;
 	background-color: #e2f1ff;
-	color: rgb(100, 100, 100);
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
-.resume_sec4 .sec4_add{
+.resume02_sec4 .sec4_cont ul li{
+	color: rgb(100, 100, 100);
+	font-size: 14px;
+}
+
+.resume02_sec4 .sec4_add{
 	width: 900px;
-	height: 22px;
-	line-height: 22px;
+	height: 25px;
+	line-height: 25px;
 	padding-bottom: 20px;
 	border-bottom: 1px solid #bbb;
 	margin-bottom: 20px;
 }
 
-.resume_sec4 .sec4_add img{
+.resume02_sec4 .sec4_add img{
 	margin-right: 10px;
 }
 
-.resume_sec4 .sec4_add span{
+.resume02_sec4 .sec4_add span{
 	color:#0000ee;
+	font-size: 16px;
+	line-height: 25px;
 }
 
-.resume_sec4 .sec4_work{
+.resume02_sec4 .sec4_work{
 	width: 900px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-.resume_sec4 .work_term{
+.resume02_sec4 .work_term{
 	width: 220px;
 	color: rgb(100, 100, 100);
+	font-size: 16px;
+	margin-right: 50px;
 }
 
-.resume_sec4 .work_company{
+.resume02_sec4 .work_company{
 	width: 580px;
 	color: rgb(50, 50, 50);
+	font-size: 20px;
 }
-/*------.resume_sec4끝------*/
+/*------.resume02_sec4끝------*/
 
 
 
-/*------.resume_sec5시작------*/
-.resume_sec5{
+/*------.resume02_sec5시작------*/
+.resume02_sec5{
 	width: 1000px;
 	margin: 0 auto;
 	background-color: white;
 	padding-bottom: 100px;
 }
 
-.resume_sec5 .sec5_box{
+.resume02_sec5 .sec5_box{
 	margin-left: 50px;
 }
 
-.resume_sec5 .sec5_box div{
+.resume02_sec5 .sec5_box div{
 	display: -webkit-flex;
 	display: flex;
 	justify-content: flex-start;
 }
 
-.resume_sec5 .sec5_title{
+.resume02_sec5 .sec5_title{
 	width: 900px;
 	border-bottom: 1px solid rgb(100, 100, 100);
 }
 
-.resume_sec5 .sec5_title span{
-	font-size: 20px;
-	line-height: 20px;
+.resume02_sec5 .sec5_title span{
+	font-size: 18px;
+	line-height: 18px;
 	color: rgb(50, 50, 50);
 }
 
-.resume_sec5 .sec5_cont{
+.resume02_sec5 .sec5_cont{
 	width: 900px;
 	background-color: #e2f1ff;
-	color: rgb(100, 100, 100);
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
-.resume_sec5 .sec5_add{
+.resume02_sec5 .sec5_cont ul li{
+	color: rgb(100, 100, 100);
+	font-size: 14px;
+}
+
+.resume02_sec5 .sec5_add{
 	width: 900px;
-	height: 22px;
-	line-height: 22px;
+	height: 25px;
+	line-height: 25px;
 	padding-bottom: 20px;
 	border-bottom: 1px solid #bbb;
 	margin-bottom: 20px;
 }
 
-.resume_sec5 .sec5_add img{
+.resume02_sec5 .sec5_add img{
 	margin-right: 10px;
 }
 
-.resume_sec5 .sec5_add span{
+.resume02_sec5 .sec5_add span{
 	color:#0000ee;
+	font-size: 16px;
+	line-height: 25px;
 }
 
-.resume_sec5 .sec5_skill{
+.resume02_sec5 .sec5_skill{
 	width: 900px;
 	display: -webkit-flex;
 	display: flex;
 	flex-direction: column;
 }
 
-.resume_sec5 .sec5_skill textarea{
-	width: 878px;
-	height: 18px;
-	font-size: 12px;
-	vertical-align: top;
-	color: rgb(50, 50, 50);
-	border: 1px solid #bbb;
-	border-radius: 5px;
-	text-align: start;
-	resize: none;
-	padding: 10px;
-}
-
-.resume_sec5 .sec5_skill form select{
+.resume02_sec5 .sec5_skill form select{
 	width: 900px;
 	border: 1px solid #bbb;
 	border-radius: 5px;
 	padding: 5px;
-	font-size: 12px;
+	font-size: 14px;
 }
-/*------.resume_sec5끝------*/
+
+.resume02_sec5 .sec5_skill form select option{
+	font-size: 14px;
+}
+/*------.resume02_sec5끝------*/
 
 
 
-/*------.resume_sec6시작------*/
-.resume_sec6{
+/*------.resume02_sec6시작------*/
+.resume02_sec6{
 	background-color: white;
 	padding-bottom: 70px;
 	flex-direction: column;
 }
 
-.resume_sec6 .sec6_check{
+.resume02_sec6 .sec6_check{
 	display: -webkit-flex;
 	display: flex;
 	justify-content: center;
 	margin-bottom: 30px;
 }
 
-.resume_sec6 .sec6_check input{
+.resume02_sec6 .sec6_check input{
 	margin-right: 10px;
 }
 
-.resume_sec6 .sec6_btn{
+.resume02_sec6 .sec6_btn{
 	display: -webkit-flex;
 	display: flex;
 	justify-content: center;
 }
 
-.resume_sec6 .btn_completed{
+.resume02_sec6 .btn_completed{
 	background-color: #0000ee;
 	border: 1px solid #0000ee;
 	border-radius: 30px;
@@ -487,16 +503,16 @@ body::-webkit-scrollbar {
 	color: white;
 }
 
-.resume_sec6 .btn_completed:hover{
+.resume02_sec6 .btn_completed:hover{
 	background-color: white;
 	color: #0000ee;
 }
-.resume_sec6 .btn_completed span{
+.resume02_sec6 .btn_completed span{
 	line-height: 50px;
 	font-weight: bolder;
 	font-size: 17px;
 }
-/*------.resume_sec6끝------*/
+/*------.resume02_sec6끝------*/
 
 
 
