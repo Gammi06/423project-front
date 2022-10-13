@@ -1,10 +1,31 @@
-@charset "utf-8";
+@charset "UTF-8";
+
 @font-face {
     font-family: 'RixInooAriDuriR';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+	font-family: 'Pretendard-Regular';
+}
+
 
 /*------.header시작------*/
 .header {
@@ -88,7 +109,6 @@
 
 /*------.resume01_sec1시작------*/
 .resume01_sec1{
-	width: 1000px;
 	height: 440px;
 	background-color: #5e5e5e;
 	margin: 0 auto;
@@ -109,6 +129,7 @@
 	color: #fff;
 	font-weight: bold;
 	font-size: 56px;
+	font-family: 'Pretendard-Regular';
 }
 
 .resume01_sec1 div .sec1_cont2{
@@ -117,8 +138,8 @@
 
 .resume01_sec1 div .sec1_cont2 span{
 	color: #fff;
-	font-weight: bolder;
 	font-size: 18px;
+	font-family: 'Pretendard-Regular';
 }
 
 .resume01_sec1 div .sec1_cont3{
@@ -127,8 +148,8 @@
 
 .resume01_sec1 div .sec1_cont3 span{
 	color: #fff;
-	font-weight: bolder;
 	font-size: 18px;
+	font-family: 'Pretendard-Regular';
 }
 
 .resume01_sec1 div .sec1_cont4{
@@ -145,6 +166,7 @@
 	margin-right: 20px;
 	line-height: 45px;
 	text-align: center;
+	font-family: 'Pretendard-Regular';
 }
 
 .resume01_sec1 div .sec1_cont4 .btn_adminresume{
@@ -164,6 +186,11 @@
 .resume01_sec1 div .sec1_cont4 .btn_newresume:hover{
 	background-color: #e6e6e6;
 	color: #0000ee;
+}
+
+.resume01_sec1 div .sec1_cont4 .btn_adminresume span,
+.resume01_sec1 div .sec1_cont4 .btn_newresume span{
+	font-family: 'Pretendard-Regular';
 }
 /*------.resume01_sec1끝------*/
 
@@ -186,6 +213,7 @@
 	font-size: 32px;
 	height: 150px;
 	line-height: 150px;
+	font-family: 'Pretendard-Regular';
 }
 
 .resume01_sec2 .sec2_box p {
@@ -229,6 +257,7 @@
 	font-weight: bold;
 	font-size: 32px;
 	line-height: 120px;
+	font-family: 'Pretendard-Regular';
 }
 
 .resume01_sec3 div p{
@@ -277,6 +306,7 @@
 	line-height: 50px;
 	font-weight: bold;
 	font-size: 18px;
+	font-family: 'Pretendard-Regular';
 }
 /*------.resume01_sec4끝------*/
 
