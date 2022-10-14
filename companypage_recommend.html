@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구해줘용</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/companypage_recommend.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="cp_wrap">
+            <div class="companypage">
+
+                <p class="companypage_title">Company Page</p>
+
+                <div class="cp_info">
+                    <div class="cp_account">
+                        <div class="cp_img"></div>
+                        <div class="cp_acc">
+                            <p class="name">이름</p>
+                            <p class="email">이메일</p>
+                        </div>
+                        <div class="cp_acc_setting">
+                            <button>
+                                <a href="#">계정 설정하기</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="cp_menu">
+                        <select name="cp_option">
+                            <option value="지원자 관리" selected="selected">지원자 관리</option>
+                            <option value="채용중인 포지션">채용중인 포지션</option>
+                        </select>
+                    </div>
+                    <div class="cp_status">
+                        <ul>
+                            <li><a href="companypage_manage.html">
+                                    <div class="cp_status_li1"><span>지원자 관리</span></div>
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="cp_status_li2"><span>지원자 추천</span></div>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="logout">
+                    <button>
+                        <a href="#">로그아웃</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="cp_contents">
+                <div class="cp_applications">
+                    <div class="cp_search">
+                        <div class="cp_recommends_title">
+                            <p>지원자 추천</p><span>현재 구직중인 이력서 목록입니다.</span>
+                        </div>
+                        <div class="cp_position">
+                            <select name="cp_position">
+                                <option value="#" selected="selected">포지션</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <table class="cp_table">
+                            <thead>
+                                <tr>
+                                    <th class="cp_table_title">이력서 제목</th>
+                                    <th></th>
+                                    <th>작성자 이름</th>
+                                    <th>일자</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="cp_table_title">채용공고 타이틀</td>
+                                    <td><a href="#">바로가기</a></td>
+                                    <td>이름</td>
+                                    <td>yyyy.mm.dd</td>
+                                    <td><a href="#">제안하기</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
