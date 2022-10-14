@@ -107,6 +107,7 @@
 }
 
 .cp_menu select {
+	font-family: 'GmarketSansMedium';
 	border-style: none;
 	border-bottom: 1px solid #bbb;
 	padding: 15px;

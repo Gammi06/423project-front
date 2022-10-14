@@ -40,10 +40,10 @@
 					</div>
 					<div class="cp_status">
 						<ul>
-							<li><a href="companypage_recruit_manage.html">
+							<li><a href="#">
 									<div class="cp_status_li1"><span>채용관리</span></div>
 								</a></li>
-							<li><a href="#">
+							<li><a href="companypage_company_detail.html">
 									<div class="cp_status_li2"><span>회사정보</span></div>
 								</a></li>
 						</ul>
@@ -60,30 +60,47 @@
 			<div class="cp_contents">
 				<div class="cp_applications">
 					<form>
-						<p>공고 추가하기</p>
-						<span>대표이미지</span>
-						<div class="cp_img">
-							<div class="img">이미지</div>
-							<div class="add_img">
-								<label for="add_img">
-									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-										viewBox="0 0 32 32" data-svg-content="true">
-										<g>
-											<path
-												d="M 17,2C 8.716,2, 2,8.716, 2,17S 8.716,32, 17,32S 32,25.284, 32,17S 25.284,2, 17,2z M 25,18L 18,18 l0,7 C 18,25.552, 17.552,26, 17,26S 16,25.552, 16,25L 16,18 L 9,18 C 8.448,18, 8,17.552, 8,17C 8,16.448, 8.448,16, 9,16L 16,16 L 16,9 C 16,8.448, 16.448,8, 17,8 S 18,8.448, 18,9L 18,16 l 7,0 C 25.552,16, 26,16.448, 26,17C 26,17.552, 25.552,18, 25,18z">
-											</path>
-										</g>
-									</svg>
-									<p>사진 추가하기</p>
-								</label>
-								<span>?MB 이상 업로드 불가</span>
-								<div class="input"><input type="file" id="add_img" name="add_img" accept="image/*"
-										onchange="loadFile(this)"></div>
-							</div>
+						<p class="cp_add">공고 추가하기</p>
+						<div class="cp_wanted_title"><span>공고 제목</span>
+							<input type="text" placeholder="공고 제목을 작성해주세요.">
 						</div>
-						<div class="cp_discribe"><span>회사소개</span><textarea>안녕</textarea></div>
-						<button type="submit" class="cp_contents_write">작성완료</button>
-						<button type="reset" class="cp_contents_cancel">작성취소</button>
+						<div class="cp_wanted_discribe">
+							<span>설명글</span>
+							<textarea placeholder="설명"></textarea>
+						</div>
+						<div class="cp_wanted_position">
+							<span>직군/직무</span>
+							<select name="wanted_position">
+								<option value="#">직군/직무를 선택해주세요</option>
+							</select>
+							<p>포지션이 다른 경우 하나씩 추가해야 합니다. <br>
+								(예: iOS개발자, Android개발자 2개의 포지션을 채용해야 하는 경우, 2번 따로 작성)
+							</p>
+						</div>
+						<div class="cp_wanted_career">
+							<span>경력</span>
+							<p>인턴은 작성 불가</p>
+							<input type="radio" name="position" value="신입" checked="checked"><span
+								class="text">신입&nbsp&nbsp</span>
+							<input type="radio" name="position" value="경력"><span class="text">경력&nbsp&nbsp&nbsp<select
+									name="career">
+									<option value="경력 선택">경력 선택</option>
+								</select></span>
+						</div>
+						<div class="cp_wanted_pay">
+							<span>채용 시 예상 연봉 (단위: 만 원)</span>
+							<select name="wanted_pay">
+								<option value="#">연봉 선택</option>
+							</select>
+						</div>
+						<div class="cp_wanted_enddate">
+							<span>마감일</span>
+							<input type="date">
+						</div>
+						<div class="cp_contents_btn clearfix">
+							<button type="reset" class="cp_contents_cancel">작성취소</button>
+							<button type="submit" class="cp_contents_write">작성완료</button>
+						</div>
 					</form>
 				</div>
 			</div>

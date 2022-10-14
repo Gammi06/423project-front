@@ -107,6 +107,7 @@
 }
 
 .cp_menu select {
+	font-family: 'GmarketSansMedium';
 	border-style: none;
 	border-bottom: 1px solid #bbb;
 	padding: 15px;
@@ -236,12 +237,14 @@
 .cp_contents .cp_applications form .cp_discribe span {}
 
 .cp_contents .cp_applications form .cp_discribe textarea {
+	font-family: 'GmarketSansMedium';
 	display: block;
-	width: 93.6%;
+	width: 100%;
 	height: 135px;
 	margin-bottom: 30px;
-	padding: 20px;
+	padding: 10px;
 	resize: none;
+	box-sizing: border-box;
 }
 
 .cp_contents .cp_applications form .cp_contents_write {
