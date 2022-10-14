@@ -132,7 +132,7 @@
 	font-size: 14px;
 }
 
-.cp_status ul li a .cp_status_li2 span {
+.cp_status ul li a .cp_status_li1 span {
 	font-weight: 900;
 	color: #333333;
 	font-size: 15px;
@@ -140,7 +140,7 @@
 	box-shadow: inset 0 -10px 1px #33ffcc;
 }
 
-.cp_status ul li a:hover .cp_status_li1 span {
+.cp_status ul li a:hover .cp_status_li2 span {
 	display: contents;
 	color: #33ffcc;
 }
