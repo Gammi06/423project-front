@@ -1,0 +1,120 @@
+#wrap {
+    background-color: rgb(248, 248, 248);
+}
+
+#pp_wrap {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.pp_menu {}
+
+.pp_title {
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.5em;
+    font-weight: bold;
+    padding: 60px 0 0 0;
+}
+
+.pp_position {
+    padding: 10px 50px 10px 30px;
+}
+
+.pp_position a {
+    font-size: 16px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.pp_position a:hover {
+    color: #33ffcc;
+    font-weight: bold;
+}
+
+.pp_proposal {
+    padding: 0px 50px 0px 30px;
+}
+
+.pp_proposal a {
+    font-size: 16px;
+    font-weight: 900;
+    color: #333333;
+    box-shadow: inset 0 -10px 1px #33ffcc;
+}
+
+.pp_sub_title {
+    font-size: 18px;
+    font-weight: 900;
+    margin: 95px 0 30px 130px;
+}
+
+.pp_search {
+    margin: 0 0 0 115px;
+}
+
+.pp_search form {
+    position: relative;
+}
+
+.pp_search input {
+    width: 150px;
+    height: 20px;
+    border-radius: 25px;
+    border: 1px solid #BEBEBE;
+    padding: 7px 0 5px 18px;
+    font-size: 13px;
+    color: #333333;
+}
+
+.pp_search input::placeholder {
+    color: #BEBEBE;
+    font-size: 13px;
+}
+
+.pp_search .btn_search {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    color: #BEBEBE;
+}
+
+.btn_search::before {
+    content: "\f002";
+}
+
+.pp_table {
+    width: 700px;
+    margin: 20px 0 150px 115px;
+    border-collapse: collapse;
+}
+
+.pp_table th {
+    background: rgb(248, 248, 248);
+    height: 48px;
+    color: #333333;
+    border-bottom: 2px solid rgb(190, 190, 190);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.pp_table td {
+    background: #fff;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    color: #333333;
+    height: 48px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.pp_table td:last-child {
+    color: #0000ee;
+}
